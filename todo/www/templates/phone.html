@@ -1,0 +1,16 @@
+<ion-view>
+  <ion-header-bar class="bar-stable">
+    <h1 class="title">Todo app</h1>
+  </ion-header-bar>
+  <ion-content>
+    <div class="list">
+      <label class="item item-input">
+        <input type="text" placeholder="Phone Number" ng-model="data.phone" maxlength="12">
+      </label>
+    </div>
+    <p class="error" ng-show="error">{{message}}</p>
+    <button class="button button-block button-stable" ng-click="sendPhone(data)">
+      SUBMIT
+    </button>
+  </ion-content>
+</ion-view>
