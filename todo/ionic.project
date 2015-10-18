@@ -1,0 +1,10 @@
+{
+  "name": "todo",
+  "app_id": "",
+  "proxies": [
+    {
+      "path": "/v1",
+      "proxyUrl": "http://192.168.0.101:3000/v1"
+    }
+  ]
+}

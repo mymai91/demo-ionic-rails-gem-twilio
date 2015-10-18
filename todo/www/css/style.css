@@ -1,0 +1,40 @@
+/* Empty. Add your own CSS if you like */
+.error {
+  color: red;
+  font-size: 18px;
+  text-align: center;
+}
+
+.pin-code {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.pin-code::-webkit-input-placeholder {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+
+.pin-code:-moz-placeholder { /* Firefox 18- */
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+
+.pin-code::-moz-placeholder {  /* Firefox 19+ */
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+
+.pin-code:-ms-input-placeholder {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+
+.welcome {
+  padding: 40px;
+  text-align: center;
+}
